@@ -1,0 +1,242 @@
+
+header{
+	position: fixed;/*fixedを設定して固定*/
+  z-index: 999;/*最前面へ*/
+  top:0;/*位置指定*/
+  left:0;/*位置指定*/
+	background-color: black;
+	transition: all 1s;
+}
+
+.logo{
+ margin: 20px	0px 10px 0px;
+ padding-left: 60px;
+}
+
+ul{
+	display: flex;
+	margin:25px 100px 10px 0px;
+}
+
+ul li{
+	padding: 0px 25px;
+}
+
+.contents{
+	padding-top:25px;
+	padding-right: 40px;
+}
+/*modal*/
+
+
+.login{
+	width: 100%;
+	text-align: center;
+	font-size: 19px;
+	font-weight: bold;
+	color: black;
+	padding-bottom: 15px;
+	margin-top: 20px;
+	border-bottom: 1px solid rgb(216, 205, 205);
+}
+
+.box{
+	width: 100%;
+	text-align: center;
+}
+
+.box input{
+	width: 95%;
+	font-size: 1.2rem;
+  padding: 10px 2.5px;
+  border-radius: 8px;
+  border: 1px solid rgb(216, 205, 205);
+	margin-top: 10px;
+}
+
+.button1 {
+	width: 90%;
+	color: white;
+	background-color: rgb(215, 4, 102);
+	font-size: 1.2rem;
+  padding: 10px 2.5px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+	margin: 10px 0px 20px 0px;
+}
+
+.modal{
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+}
+.modal__bg{
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+		background: rgba(0,0,0,0.8);
+}
+
+.modal__contents{
+	background: white;
+    left: 50%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+		border-radius: 10px;
+}
+
+#signin-close img{
+	width: 25px;
+	height:25px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#signin-close div{
+	margin-left: auto;
+	margin-right: auto;
+  height: 50px;
+  width: 95%;
+  border: 1px solid rgb(216, 205, 205);
+  border-radius: 5px;
+}
+
+/*header*/
+
+
+header.con{
+	position: absolute;
+  width: 100%;
+  background-image: none;
+	top: 0;
+	margin: 20px;
+}
+
+.motion{
+	background-color: #000000cc;
+  z-index: 2;
+	width: 100%;
+  top: 0;
+}
+
+/*contact*/
+
+.contact{
+	display: block;
+  margin: 150px auto 80px auto;
+  width :700px;
+  border: 1px solid;
+  border-radius: 10px;
+  border-style: solid; border-color: rgb(199, 193, 193);
+}
+
+.contact h1 {
+	font-size: 20px;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid rgb(199, 193, 193);
+}
+
+h2{
+		border:solid;
+		background-color: #eaeaea;
+		padding: 1%;
+	}
+
+	.Top h2{
+		border-top: 1px solid #666;
+		border-bottom: 1px solid #666;
+		padding: 1%;
+		font-size: 16px;
+	}
+
+span{
+ color: red;
+}
+
+.Top{
+	padding:30px;
+}
+
+.Top p{
+	font-size: 14px;
+  padding-top: 10px;
+}
+
+.form{
+	padding: 0px 30px;
+	margin-bottom: 30px;
+	line-height: 30px;
+}
+
+input{
+	width: 100%;
+  font-size: 1.2rem;
+  padding: 10px 2.5px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+}
+
+.form1{
+	margin-top: 40px;
+}
+
+.form1 h2{
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+	padding: 1%;
+	font-size: 16px;
+}
+
+textarea{
+	resize: none;
+  width: 100%;
+  height: 33vh;
+  font-size: 1.2rem;
+  padding: 10px 2.5px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+	margin-top: 20px;
+}
+
+.btn{
+	width: 100%;
+	color: white;
+  background-color: rgb(215, 4, 102);
+  font-size: 1.2rem;
+  padding: 10px 2.5px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+	margin-top: 15px;
+}
+
+/* header */
+
+.table{
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+.table th {
+	border:solid 1px;
+	text-align: center;
+	padding: 5px 5px;
+}
+
+.table td {
+	border:solid 1px;
+	text-align: center;
+	padding: 5px 5px;
+}
