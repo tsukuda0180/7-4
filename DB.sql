@@ -104,13 +104,7 @@ CREATE TABLE `mst_product` (
 --
 
 INSERT INTO `mst_product` (`code`, `name`, `price`, `gazou`) VALUES
-(1, 'トマト', 100, 'tomato.jpg'),
-(4, 'チーズ', 100, 'cheese.png'),
-(5, 'ブロッコリー', 100, 'broccoli.jpg'),
-(6, 'アスパラ', 80, 'aspara.jpg'),
-(8, '玉ねぎ', 100, 'tamanegi.jpg'),
-(9, '人参', 300, 'ninjin.jpg'),
-(18, '芋　山盛り', 1000, 'jaga_yama.jpg');
+
 
 -- --------------------------------------------------------
 
